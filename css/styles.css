@@ -1,0 +1,48 @@
+p {
+    color: rgb(50, 50, 175); 
+    font-style: oblique; 
+    font-family: initial;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000; 
+    font-family: cursive
+}
+#title {
+    text-decoration:underline ; 
+    background-color: rgb(202, 202, 202);
+}
+
+.information {
+    color:rgb(1, 53, 53);
+    font-style: initial;
+    
+}
+
+.dp {
+    width: 300px;
+    height: 200px;
+
+}
+
+#stafftable {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#stafftable td, #stafftable th {
+border: 1px solid #ddd;
+padding: 8x;
+}
+
+#stafftable th {
+    background-color: rgb(189, 189, 189);
+    color: #000;
+}
+
+.subTitle{
+    text-decoration: wavy;
+    background-color: rgb(48, 48, 48);
+    color: #ddd;
+}
