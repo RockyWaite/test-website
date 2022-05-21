@@ -7,71 +7,61 @@
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
-        <div id="container" class="container">
-            <div id="nav">
-                <a href="index.html">Home</a> | 
-                <a href="about.html"> About Us</a> | 
-                <a href="contact.html"> Contact US</a>
-            </div>
-            <div id="content">
-                <h1 id="title">About us Page</h1>
-
-                    <img src="Images/ManForest.jpg" class="dp" />
-                    <img src="Images/SnowRoad.jpg" class="dp" />
-                    <img src="Images/SnowHill.jpg" class="dp" />
-                    <img src="Images/SnowTrees.jpg" class="dp" />
-                    <img src="Images/ManMountain.jpg" class="dp" />
-                    <img src="Images/lakegrass.jpg" class="dp" />
-                    <img src="Images/Solitude.jpg" class="dp" />
-                    <img src="Images/BicycleSnow.jpg" class="dp" />
-                    <ul>
-                        <li>
-                            <p class="information">Lis Item 1</p>
-                        </li>
-                        <li>
-                            <p class="information">Number 2</p>
-                        </li>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">My Website</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      External Site
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">YouTube</a></li>
+                      <li><a class="dropdown-item" href="#">BeatStars</a></li>
+                      <li><a class="dropdown-item" href="#">Twitter</a></li>
                     </ul>
-                    <ol>
-                        <li>
-                            <h5>Lis Item 1</h5>
-                        </li>
-                        <li>
-                            <h5>Number 2</h5>
-                        </li>
-                    </ol>
-                    <h3>Staff Member Details</h3>
-            
-                    <table id="stafftable">
-                        <tr>
-                            <th>Name</th>
-                            <th>Age</th>
-                            <th>Staff ID</th>
-                        </tr>
-                        <tr>
-                            <td>Lewis Mist</td>
-                            <td>30</td>
-                            <td>90-98</td>
-                        </tr>
-                        <tr>
-                            <td>Mat Hamilton</td>
-                            <td>40</td>
-                            <td>40-79</td>
-                        </tr>
-                        <tr>
-                            <td>Rikki</td>
-                            <td>27</td>
-                            <td>31-76</td>
-                        </tr>
-                        <tr>
-                            <td>Kevin</td>
-                            <td>34</td>
-                            <td>42-79</td>
-                        </tr>
-                    </table>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div id="footer">This is the footer</div>
-        </div>
+          </nav>
+        <div id="container" class="container">
+          <div class="row">
+            <div class="col-8">
+              <h4 class="text-primary">About Me</h4>
+              <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Nisi rerum accusantium ipsum architecto recusandae id eos necessitatibus delectus maxime commodi nobis alias tempore consequatur sequi ut modi, 
+                  similique praesentium aut.
+              </p>
+            </div>
+            <div class="col-3 offset-md-1">
+              <h4 class="text-primary">Contact Info</h4>
+              <ul>
+                <li>One</li>
+                <li>One</li>
+                <li>One</li>
+                <li>One</li>
+              </ul>
+            </div>
+              <hr/>
+          </div>
+          <footer class="container">
+            <p>&copy; ROCKY (My First HTML Website as of 2022)</p>
+        </footer>
                 <!-- JavaScript Bundle with Popper -->
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 

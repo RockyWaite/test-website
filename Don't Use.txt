@@ -1,0 +1,38 @@
+index.html content
+
+            <div id="content">
+                <h1 class="display-1">This is the Title H1</h1>
+
+                <h1> Hello World My Website is now Live!!!!!!!!!!</h1>
+                <h2> Hello World</h2>
+                <h3> Hello World</h3>
+                <h4> Hello World</h4>
+                <h5> Hello World</h5>
+                <h6> Hello World</h6>
+                <p class="information">
+                    Hello Wrld
+                    <br/>
+                    Second Line
+                </p>
+                <br/>
+                <p>
+                    2 World
+                </p>
+                <br/>
+                <p class="information">
+                    Hello Wrld 222
+                    <br/>
+                    Second Line2 22
+                </p>
+                <br/>
+                <p id="targettag">
+                    2 World 222
+                </p>
+                <br/>
+                <a id="link1" class="btn btn-secondary" href="https://www.amazon.com" target="_blank">Amazon</a>
+                <a id="link1" href="1" target="_blank">x</a>
+        
+                <button type="button" class="btn btn-secondary" onclick="buttonclicked()">Click Me</button>
+                <button type="button" class="btn btn-secondary" onclick="buttontochangetextclicked()">Click Me To Change Text</button>
+                <button type="button" class="btn btn-secondary" id="hidetitleBtn">Click Me To Hide Title</button>
+            </div>
