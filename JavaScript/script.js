@@ -1,6 +1,13 @@
-function buttonclicked(){
-    alert('Thank you, Your Data is Saved');
-}
-function buttontochangetextclicked(){
-    document.getElementById('targettag').innerHTML = "JavaScript text";
-}
+$(function(){
+    var pages = ['index', 'about', 'contact']
+    var pathname = window.location.pathname;
+
+    $('nav-link').each(function(i){
+        if(pathname.includes(pages[i])){
+            $(this).addClass('active');
+            $(this).attr('aria-current', 'page');
+        }else if(this.className.includes('active')){
+            $(this).removeClass('active');
+        }
+    });
+});
