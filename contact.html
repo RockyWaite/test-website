@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
+      
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container">
               <a class="navbar-brand" href="index.html">My Website</a>
@@ -39,24 +40,51 @@
             </div>
           </nav>
         <div id="container" class="container">
+          <div class="row">
+            <div class="col-8">
+              <h4 class="text-primary">About Me</h4>
+              <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Nisi rerum accusantium ipsum architecto recusandae id eos necessitatibus delectus maxime commodi nobis alias tempore consequatur sequi ut modi, 
+                  similique praesentium aut.
+              </p>
+            </div>
+            <div class="col-3 offset-md-1">
+              <h4 class="text-primary">Contact Info</h4>
+              <ul>
+                <li><a class="text-dark" href="#" target="_blank">GitHub</a></li>
+                <li><a class="text-dark" href="#" target="_blank">Netlify</a></li>
+                <li><a class="text-dark" href="#" target="_blank">Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+
+            <hr>
 
             <div id="content">
-                <h1 class="display-1"><p>Contact Us</p></h1>
-                <form action="success.html">
-                    <label for="fname">Full Name</label><br/>
-                    <input type="text" class="form-control" id="fname" name="fname" />
-                    <br/><br/>
-                    <label for="email">Email Address</label><br/>
-                    <input type="email" class="form-control" id="email" name="email" />
-                    <br/><br/>
-                    <label for="query">Query</label><br/>
-                    <textarea id="query" class="form-control" name="query"></textarea>
-                    <br/>
-                    <br/>
-                    <div class="d-grid gap-2">
-                        <input type="submit" class="btn btn-success" value="Submit Your Query" onclick="buttonclicked()" />
-                      </div>
-                </form>
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputFirstName4" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="inputFirstName4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputLastName4" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="inputLastName4">
+                </div>
+                <div class="col-12">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                  <label for="inputQuery" class="form-label">Your Query</label>
+                  <textarea class="form-control" id="inputQuery"></textarea>
+
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-block">Submit Query</button>
+                </div>
+              </form>
+              <hr>
             </div>
             <footer class="container">
               <p>&copy; ROCKY (My First HTML Website as of 2022)</p>

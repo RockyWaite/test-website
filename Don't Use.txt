@@ -31,6 +31,7 @@ index.html content
                 <br/>
                 <a id="link1" class="btn btn-secondary" href="https://www.amazon.com" target="_blank">Amazon</a>
                 <a id="link1" href="1" target="_blank">x</a>
+                <a href="1" target="_blank">x</a>
         
                 <button type="button" class="btn btn-secondary" onclick="buttonclicked()">Click Me</button>
                 <button type="button" class="btn btn-secondary" onclick="buttontochangetextclicked()">Click Me To Change Text</button>
